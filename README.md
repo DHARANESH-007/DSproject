@@ -13,11 +13,13 @@ The project demonstrates an end-to-end machine learning workflow, from data prep
 
 ### Student Prediction Form
 
-![Prediction Form](images/prediction-page.png)
+<img width="1600" height="822" alt="WhatsApp Image 2026-10-28 at 9 08 15 PM" src="https://github.com/user-attachments/assets/c3bf7406-2bc1-47ca-8afb-b3689f2d04a1" />
+
 
 ### Prediction Result
 
-![Prediction Result](images/prediction-result.png)
+<img width="1600" height="820" alt="WhatsApp Image 2026-10-28 at 9 09 33 PM" src="https://github.com/user-attachments/assets/192805b4-5b46-4bf3-9c92-dc85f9c49d1d" />
+
 
 ## Features
 
