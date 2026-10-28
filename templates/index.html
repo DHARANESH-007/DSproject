@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Exam Performance Indicator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page hero">
+    <div>
+      <h1>Predict a student’s maths score</h1>
+      <p>Enter a few details about the student and their reading and writing scores. The model estimates the maths score.</p>
+      <a class="btn" href="{{ url_for('predict_datapoint') }}">Start prediction</a>
+    </div>
+
+    <section class="card checklist" aria-labelledby="enter-title">
+      <h2 id="enter-title">What you’ll enter</h2>
+      <h3>About the student</h3>
+      <ul>
+        <li>Gender</li>
+        <li>Race or ethnicity</li>
+        <li>Parental level of education</li>
+        <li>Lunch type</li>
+        <li>Test preparation course</li>
+      </ul>
+      <h3>Scores</h3>
+      <ul>
+        <li>Writing score out of 100</li>
+        <li>Reading score out of 100</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
